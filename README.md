@@ -25,7 +25,7 @@ This pipeline:
 ---
 
 ## Folder structure
-
+---
 city-energy-pipeline/
 ├── src/
 │   ├── etl/
@@ -44,7 +44,7 @@ city-energy-pipeline/
 ├── outputs/
 ├── requirements.txt
 └── README.md
----
+
 
 ## Data sources
 
