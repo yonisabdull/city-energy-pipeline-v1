@@ -26,23 +26,24 @@ This pipeline:
 
 ## Folder structure
 
-src/
-etl/
-clean_ghg.py          # cleaning + schema enforcement
-load_to_sql.py        # loads cleaned data into SQLite
-analysis/
-plots.py              # bar charts from SQL queries
-maps.py               # UK emissions density map
-query_sql.py          # example queries
-
-data/
-raw/                    # raw DESNZ CSV (ignored)
-processed/              # cleaned CSV
-geo/                    # boundary file (ignored)
-
-outputs/                # charts + map
-requirements.txt
-
+city-energy-pipeline/
+├── src/
+│   ├── etl/
+│   │   ├── clean_ghg.py
+│   │   └── load_to_sql.py
+│   └── analysis/
+│       ├── plots.py
+│       ├── maps.py
+│       └── query_sql.py
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── geo/
+│
+├── outputs/
+├── requirements.txt
+└── README.md
 ---
 
 ## Data sources
