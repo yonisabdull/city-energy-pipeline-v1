@@ -4,7 +4,8 @@ This project builds a complete, reproducible workflow for cleaning, transforming
 
 The pipeline includes basic data cleaning, schema checks, type enforcement, database loading, SQL analysis, bar-chart reporting, and a UK emissions density map.
 
-I chose emissions data because it’s a real-world issue where data matters. Local authorities make policy decisions using datasets like this, so it felt meaningful to work with. I've also been interested in sustainability from my time as a Sustainability Coordinator, so exploring a dataset connected to local environmental impact felt like a natural fit.
+I chose emissions data because it's a real-world issue where data actually matters. Local authorities make policy decisions using datasets like this, so it felt meaningful to work with. I've also been really interested in sustainability ever since I worked as a Sustainability Coordinator, so exploring a dataset connected to local environmental impact felt like a natural fit.
+
 ---
 
 ## Project overview
