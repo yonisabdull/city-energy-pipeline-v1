@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Raw data
+data/raw/*
+
+# Big geo files
+data/geo/*
+
+# SQLite DB
+*.db
+
+# OS junk
+.DS_Store
+
+# VSCode
+.vscode/
