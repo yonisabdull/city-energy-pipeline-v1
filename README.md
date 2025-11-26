@@ -162,6 +162,9 @@ This includes:
 If running the pipeline in order:
 
 python src/etl/clean_ghg.py
+
 python src/etl/load_to_sql.py
+
 python src/analysis/plots.py
+
 python src/analysis/maps.py
